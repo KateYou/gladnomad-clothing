@@ -13,6 +13,8 @@ Google Analytics
 
 600 x 400 pixel slider on the splash page
 
+custom .ico
+
 swap image behavior:
 
 •	two images on splash page; hover displays a color version of black and white photo
