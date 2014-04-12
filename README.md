@@ -7,10 +7,18 @@ This retail site was manually coded in Dreamweaver CS6 with JavaScript plug-ins,
 
 We ultimately chose to not go live with this site, and instead used a template site which already included the php and security needed for tracking a shopping cart.  I used frequent facebook and twitter widgets on that site, as the company often attends festivals and likes to keep their social media presence lively and up-to-date.
 
-LIST OF INCLUDED FEATURES
+INCLUDED FEATURES
+
 Google Analytics
+
 600 x 400 pixel slider on the splash page
+
 swap image behavior:
+
 •	two images on splash page; hover displays a color version of black and white photo
+
 •	6 images on Shop page; hover image indicates item number
+
 Shopping cart tabulates and sends total & items to gladnomad’s Paypal checkout, including s&h and tax.  Cart on Checkout page is non-functioning at this time.
+
+
