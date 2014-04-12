@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Glad Nomad Art</title>
+
+        	<!--COP 2822 HTML 5
+                Commercial Project
+                Author: Kathryn Youngberg	
+                Date: 11/1/12
+                Filename: gladnomad.html,
+                shop.html, about.html, art.html
+                checkout.html, thanks.html, gladtogive.html
+                Supporting files: many
+             -->
+             
+            <link rel="shortcut icon" href="/favicon.ico" >
+            <link href="main.css" rel="stylesheet" type="text/css">
+            
+            
+        <script type="text/javascript"><!--email-->
+    	function sendmailto(name, company, domain);
+    	{
+        locationstring='mai' + 'lto:' +  name + '@' +  company + '.' + domain;
+        window.location.replace(locationstring);
+    	}
+    	</script><!--end email-->
+            
+            
+		<script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+          var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+          var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+            if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+        }
+        
+        function MM_findObj(n, d) { //v4.01
+          var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+            d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+          if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+          for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+          if(!x && d.getElementById) x=d.getElementById(n); return x;
+        }
+        
+        function MM_swapImage() { //v3.0
+          var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+           if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+        }
+        </script>
+	</head>
+
+	<body onLoad="MM_preloadImages('Images/originals/cart1.png')">
+		<div id="page-wrap">
+		<div class="container">
+  		<div class="header">
+  
+            <ul>
+                <li><a href="checkout.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','Images/originals/cart1.png',1)"><img src="Images/originals/cart.png" alt="your shopping cart" id="Image5"></a></li>
+                <li><a href="gladtogive.html">Glad to Give</a></li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="about.html">Lifestyle</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+              
+	  	</div>
+      
+		<div class="content">
+  
+    	<br>
+    	<br>
+    	<br> 
+		<h1>Thanks for your order!  Glad to Give will donate a portion of your purchase to a childrens' charity.</h1>
+    	<br>
+    	<h2>We will be in touch soon. Enjoy your new gladnomad!</h2>
+    	<br>
+    	<img src="Images/palm.png" alt="teal background palm drawing"> 
+   
+    
+    	<div class="footerAside rounded">
+            <a href="https://www.facebook.com/Gladnomadclothing?fref=ts" ><img src="Images/originals/facebookbutton1.jpg" alt="like us on facebook"></a>
+              <a href="javascript:sendmailto('gladnomad', 'gmail', 'com')"> <img src="Images/originals/ContactUs.jpg" alt="Contact us.  We'd love to hear from you."></a>
+            <p>
+            &copy; 2012 gladnomad
+            </p>
+        </div>
+  	</div>
+    </div>
+    </div>
+	</body>
+</html>
