@@ -21,6 +21,6 @@ swap image behavior:
 
 •	6 images on Shop page; hover image indicates item number
 
-Shopping cart tabulates and sends total & items to gladnomad’s Paypal checkout, including s&h and tax.  Cart on Checkout page is non-functioning at this time.
+Shopping cart tabulates and sends total & items to gladnomad’s Paypal checkout, including s&h and tax.  
 
 
